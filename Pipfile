@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 db-sqlite3 = "*"
 yfinance = "*"
+ta-lib = {path = "./libs/TA_Lib-0.4.24-cp310-cp310-win_amd64.whl"}
 
 [dev-packages]
 
