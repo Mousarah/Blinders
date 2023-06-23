@@ -51,9 +51,9 @@ class UpdateDB:
 
         # BUSCA A ÚLTIMA DATA REGISTRADA NO BANCO
         cursor.execute("SELECT DATA FROM " + tabela + " ORDER BY DATA desc")
-        last_data = cursor.fetchall()
+        ultima_data = cursor.fetchall()
         db.close()
-        return str(last_data[0][0]) if len(last_data) > 0 else ""
+        return str(ultima_data[0][0]) if len(ultima_data) > 0 else ""
 
     @staticmethod
     def atualiza_valores_apos_ultima_data(self, symbol, tabela, ultima_data):

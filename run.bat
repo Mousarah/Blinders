@@ -1,0 +1,1 @@
+C:\Users\User\.virtualenvs\Blinders-zLGRGdUF\Scripts\python.exe E:\Projetos\Blinders\main.py
